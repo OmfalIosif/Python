@@ -69,7 +69,7 @@ notes_win.setLayout(line)
 with open("notes_data.json","r") as file:
     notes=json.load(file)
 
-notes["Constantinos"] = "Kopanos"
+notes["Iosif"] = "Omfalidis"
 
 list_notes.addItems(notes)
 
